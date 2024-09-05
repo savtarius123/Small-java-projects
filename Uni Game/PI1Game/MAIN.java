@@ -1,4 +1,5 @@
 import java.util.stream.Stream;
+import java.util.*;
 
 /**
  * Dies ist die Hauptklasse eines Spiels. Sie enthält die Hauptmethode, die zum

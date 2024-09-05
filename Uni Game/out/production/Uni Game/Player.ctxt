@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Player
+comment0.text=\r\n\ Diese\ Klasse\ definiert\ die\ Figur,\ die\ von\ der\ Spieler\:in\ gesteuert\r\n\ wird.\ Die\ Figur\ bewegt\ sich\ dabei\ auf\ der\ Gitterstruktur\ des\r\n\ Spielfeldes.\r\n\r\n\ @author\ Thomas\ R\u00F6fer\r\n
+comment1.params=x\ y\ rotation\ field
+comment1.target=Player(int,\ int,\ int,\ Field)
+comment1.text=\r\n\ Erzeugen\ und\ Anzeigen\ einer\ neuen\ Spielfigur.\r\n\ @param\ x\ Die\ x-Koordinate\ dieser\ Spielfigur\ im\ Gitter.\r\n\ @param\ y\ Die\ y-Koordinate\ dieser\ Spielfigur\ im\ Gitter.\r\n\ @param\ rotation\ Die\ Rotation\ dieser\ Spielfigur\ (0\ \=\ rechts\ ...\ 3\ \=\ oben).\r\n\ @param\ field\ Das\ Spielfeld,\ auf\ dem\ sich\ diese\ Spielfigur\ bewegt.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Die\ Spielfigur\ bewegt\ sich\ entsprechend\ der\ von\ der\ Spieler\:in\r\n\ bewegten\ Tasten.\ Diese\ Methode\ kehrt\ erst\ zur\u00FCck,\ wenn\ ein\r\n\ g\u00FCltiger\ Zug\ gemacht\ wurde.\r\n
+numComments=3

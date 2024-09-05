@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Level
+comment0.text=\r\n\ Diese\ Klasse\ definiert\ den\ Level\ eines\ Spiels.\ Ein\ Level\ wird\r\n\ aus\ einer\ Beschreibung\ erzeugt,\ die\ in\ einer\ Datei\ gespeichert\ ist.\r\n\ Die\ Datei\ enth\u00E4lt\ Symbole\ f\u00FCr\ leere\ Zellen\ ('\ '),\ freie\ Gitterzellen\r\n\ ('O'),\ Wasserzellen\ ('W'),\ Zellverbindungen\ ('|',\ '-'),\ die\ Spielfigur\r\n\ ('p',\ 'P',\ 'q',\ 'Q'\ f\u00FCr\ die\ Rotationen\ 0-3),\ drei\ Sorten\r\n\ Spazierg\u00E4nger\:innen\ ('l',\ 'L',\ 'i',\ 'I'\ f\u00FCr\ Laila,\ 'c',\ 'C',\ 'd',\ 'D'\r\n\ f\u00FCr\ Clausius\ und\ 's',\ 'S',\ 'z',\ 'Z'\ f\u00FCr\ das\ Kind,\ jeweils\ f\u00FCr\ die\r\n\ Rotationen\ 0-3)\ sowie\ das\ Ziel\ und\ zwei\ Br\u00FCckensymbole\ ('G',\ 'b',\ 'B').\r\n\ Beispiel\:\r\n\ <pre>\r\n\ O-d-O-G\ b\r\n\ \ \ \ \ |\ \ \ |\r\n\ l-O-O-O\ W-\r\n\ \ \ \ \ |\r\n\ O-O-O-z-O\r\n\ \ \ \ \ |\r\n\ p-O-O\ W-W-\r\n\ \ \ \ \ \ \ |\r\n\ </pre>\r\n\r\n\ @author\ Thomas\ R\u00F6fer\r\n
+comment1.params=fileName
+comment1.target=Level(java.lang.String)
+comment1.text=\r\n\ Erzeugt\ einen\ neuen\ Level\ aus\ einer\ Datei\ und\ stellt\ ihn\ dar.\r\n\ @param\ fileName\ Der\ Name\ der\ Datei\ mit\ der\ Level-Beschreibung.\r\n\ @throws\ IllegalArgumentException\ Die\ Datei\ kann\ nicht\ gefunden\ oder\r\n\ \ \ \ \ \ \ \ \ gelesen\ werden\ oder\ ihr\ Inhalt\ ist\ ung\u00FCltig.\r\n
+comment2.params=
+comment2.target=java.util.List\ getActors()
+comment2.text=\r\n\ Liefere\ alle\ Akteur\:innen\ dieses\ Levels.\r\n\ @return\ Die\ Akteur\:innen\ des\ Levels.\ Die\ Spielfigur\ steht\ immer\ an\ erster\r\n\ \ \ \ \ \ \ \ \ Stelle.\r\n
+comment3.params=
+comment3.target=void\ hide()
+comment3.text=\r\n\ L\u00E4sst\ den\ Level\ wieder\ vom\ Bildschirm\ verschwinden.\r\n
+numComments=4

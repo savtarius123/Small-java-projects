@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Actor
+comment0.text=\r\n\ Diese\ abstrakte\ Klasse\ definiert\ die\ Basisklasse\ f\u00FCr\ alle\ aktiven\r\n\ Spielobjekte,\ d.h.\ welche,\ die\ sich\ bewegen.\ Sie\ definiert\ eine\r\n\ abstrakte\ Methode,\ die\ alle\ abgeleiteten\ Klassen\ \u00FCberschreiben\r\n\ m\u00FCssen,\ um\ das\ Verhalten\ des\ Spielobjekts\ zu\ definieren.\ Sie\r\n\ bietet\ au\u00DFerdem\ eine\ Methode,\ \u00FCber\ die\ abgefragt\ werden\ kann,\ ob\r\n\ sich\ dieses\ Spielobjekt\ entsprechend\ der\ Gitterstruktur\ des\ Feldes\r\n\ in\ eine\ bestimmte\ Richtung\ bewegen\ darf.\r\n\r\n\ @author\ Thomas\ R\u00F6fer\r\n
+comment1.params=x\ y\ rotation\ fileName\ field
+comment1.target=Actor(int,\ int,\ int,\ java.lang.String,\ Field)
+comment1.text=\r\n\ Erzeugt\ eine\ neue\ Akteur\:in.\r\n\ @param\ x\ Die\ x-Koordinate\ der\ Akteur\:in\ im\ Gitter.\r\n\ @param\ y\ Die\ y-Koordinate\ der\ Akteur\:in\ im\ Gitter.\r\n\ @param\ rotation\ Die\ Rotation\ dieser\ Akteur\:in\ (0\ \=\ rechts\ ...\ 3\ \=\ oben).\r\n\ @param\ fileName\ Der\ Dateiname\ des\ Bildes,\ durch\ das\ diese\ Akteur\:in\r\n\ \ \ \ \ \ \ \ \ dargestellt\ wird.\r\n\ @param\ field\ Das\ Spielfeld,\ auf\ dem\ sich\ diese\ Akteur\:in\ bewegt.\r\n
+comment2.params=direction
+comment2.target=boolean\ canWalk(int)
+comment2.text=\r\n\ Pr\u00FCfen,\ ob\ die\ Akteur\:in\ in\ eine\ bestimmte\ Richtung\ laufen\ darf.\r\n\ @param\ direction\ Die\ gepr\u00FCfte\ Richtung\ (0\ \=\ rechts\ ...\ 3\ \=\ oben).\r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ Diese\ Methode\ muss\ \u00FCberschrieben\ werden,\ um\ das\ Verhalten\ dieser\r\n\ Akteur\:in\ zu\ definieren.\r\n
+numComments=4

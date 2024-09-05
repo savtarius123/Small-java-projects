@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Walker
+comment0.text=\r\n\ Diese\ Klasse\ definiert\ eine\ Spazierg\u00E4nger\:in,\ die\ dieselbe\ Strecke\ immer\r\n\ auf\ und\ ab\ l\u00E4uft.\ Dabei\ werden\ bei\ der\ Konstruktion\ die\ Startposition\ und\r\n\ -richtung\ angegeben,\ sowie\ das\ Spielfeld,\ auf\ dem\ sie\ sich\ bewegt.\r\n\r\n\ @author\ Thomas\ R\u00F6fer\r\n
+comment1.params=x\ y\ rotation\ fileName\ field\ player
+comment1.target=Walker(int,\ int,\ int,\ java.lang.String,\ Field,\ Player)
+comment1.text=\r\n\ Erzeugt\ eine\ neue\ Spazierg\u00E4nger\:in.\r\n\ @param\ x\ Die\ x-Koordinate\ der\ Spazierg\u00E4nger\:in.\r\n\ @param\ y\ Die\ y-Koordinate\ der\ Spazierg\u00E4nger\:in.\r\n\ @param\ rotation\ Die\ Rotation\ der\ Spazierg\u00E4nger\:in\ (0\ \=\ rechts\ ...\ 3\ \=\ oben).\r\n\ @param\ field\ Das\ Spielfeld,\ auf\ dem\ sich\ die\ Spazierg\u00E4nger\:in\ bewegt.\r\n\ @param\ player\ Die\ Spielfigur.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Die\ Methode\ definiert\ das\ oben\ beschriebene\ Verhalten\ der\ Spazierg\u00E4nger\:in.\r\n
+numComments=3
